@@ -1,8 +1,8 @@
-# Agentic AI Lab — Software Lab Assignments
+# Agentic AI Lab — Software Lab Assignment
 
-> A progressive journey from rule-based agents to LLM-powered multi-step planning systems.
+> This repository contains my progressive implementation of Agentic AI systems, moving from simple rule-based heuristics to multi-step reasoning using LangChain and LLMs
 
-## 🧩 Repository Structure
+## Repository Structure
 
 ```
 agentic-ai-lab/
@@ -15,7 +15,7 @@ agentic-ai-lab/
 └── README.md
 ```
 
-## 📚 Assignment Overview
+## Assignment Overview
 
 | Day | Title | Key Concept | Framework |
 |-----|-------|-------------|-----------|
@@ -24,14 +24,14 @@ agentic-ai-lab/
 | 3 | LLM-Based Agent | LLM replaces keyword matching | LangChain + LangGraph |
 | 4 | Multi-Step Planner | Task decomposition + sequential execution | LangGraph ReAct |
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language**: Python 3.9+
 - **LLM**: Google Gemini 3.1 Series (Pro / Flash / Flash-Lite Preview)
 - **Agent Framework**: LangChain + LangGraph (ReAct pattern)
 - **UI**: Rich (terminal dashboards)
 
-## 🚀 Setup
+## Setup
 
 ```bash
 # 1. Clone the repository
@@ -53,7 +53,7 @@ cd day3
 python agent.py
 ```
 
-## 📈 Progression
+## Progression
 
 ```
 Day 1: if/elif keyword matching     → "calculate 2+3"
@@ -61,6 +61,3 @@ Day 2: Modular tools + routing      → tools.py + agent.py
 Day 3: LLM decides which tool       → Natural language understanding
 Day 4: LLM plans + executes steps   → Complex multi-step reasoning
 ```
-
-## 👤 Author
-Samyak
